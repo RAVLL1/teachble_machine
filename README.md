@@ -49,7 +49,7 @@ python main.py
 
 ## 📊 Results
 When testing the model on the input image, it successfully recognized and classified it with very high confidence:
-<img width="1036" height="255" alt="image" src="C:\Users\cloab\OneDrive\Desktop\لقطة الشاشة 2026-07-11 163523.png" />
+<img width="1036" height="255" alt="image" src="C:\Users\cloab\OneDrive\Desktop\image(2).jpg"/>
 
 
 * **Predicted Class:** Lion (Lion)
