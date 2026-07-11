@@ -25,8 +25,24 @@ Before testing the model locally, it was trained using Google's Teachable Machin
 * **Task Instructions:** `image_dd86e6.png` showing the original assignment guidelines.
 
 ## 🛠 Prerequisites
-To run the code successfully, make sure to install the following libraries inside your Conda environment:
-pip install tensorflow pillow numpy
+1. Download all the files in this repository and place them in a single folder on your local machine.
+
+2. Open the **Anaconda Prompt**.
+
+3. Activate the project's environment using the following command:
+```bash
+conda activate TeachableMachine
+```
+
+4. Navigate to the folder containing the files using the `cd` command (example):
+```bash
+cd C:\Users\wasee\Downloads\converted_keras
+```
+
+5. Run the Python script to test the model:
+```bash
+python main.py
+```
 
 ## 📊 Results
 When testing the model on the input image, it successfully recognized and classified it with very high confidence:
