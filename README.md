@@ -22,7 +22,6 @@ Before testing the model locally, it was trained using Google's Teachable Machin
 * `keras_Model.h5`: The trained model exported in TensorFlow/Keras format.
 * `labels.txt`: A text file containing the names of the classes the model was trained on.
 * **Screenshot:** An image showing the successful execution of the code and the terminal output.
-* **Task Instructions:** `image_dd86e6.png` showing the original assignment guidelines.
 
 ## 🛠 Prerequisites
 1. Download all the files in this repository and place them in a single folder on your local machine.
