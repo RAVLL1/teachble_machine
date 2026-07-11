@@ -1,54 +1,54 @@
 # teachble_machine
-# Image Classification Project using Teachable Machine and Python
+Image Recognition Project (Lion vs. Tiger)
+This project is a practical implementation of training an image recognition (classification) model using Google's Teachable Machine, completed as part of the Smart Methods training. The model is trained to accurately distinguish between images of lions and tigers.
 
-This project is a practical application of training a Machine Learning model to recognize and classify images using Google's **Teachable Machine**, then exporting and running it locally via **Python** within the **Anaconda** environment.
-## 🧠 Model Training Process (Teachable Machine)
+Task Instructions
+This project was designed to meet the following requirements specified in the assignment:
 
-Before testing the model locally, it was trained using Google's Teachable Machine by following these steps:
+Train an image recognition model: Use Google Teachable Machine with at least two classes (Lions and Tigers were chosen) and evaluate the model.
 
-1. Opened **Teachable Machine** and created a new **Image Project**.
-2. Created the required classes (e.g., 'Appels') and uploaded a dataset of images for each category.
-3. Clicked **Train Model** to allow the system to learn the patterns and features from the provided dataset.
-4. Exported the trained model by selecting **Export Model** -> **TensorFlow** -> **Keras** format.
-5. Downloaded the generated `keras_model.h5` and `labels.txt` files to integrate them locally with the Python script.
----
+Download the trained model: Export the trained model in TensorFlow -> Keras format.
 
-## 📁 Repository Structure
-* `main.py`: The Python script that loads the model, processes the input image, and predicts its class.
-* `keras_Model.h5`: The trained model exported in TensorFlow/Keras format.
-* `labels.txt`: A text file containing the names of the classes the model was trained on.
-* **Screenshot:** An image showing the successful execution of the code and the terminal output.
+Write a Python script: Create a script that loads the model, accepts an input image, and predicts its class.
 
-## 🛠 Prerequisites
-To run the code successfully, make sure to install the following libraries inside your Conda environment:
+Submit the files: Upload the Python script, the exported model files, and a screenshot of the output to GitHub.
 
-```bash
-pip install tensorflow pillow numpy
-```
+Workflow
+The following steps were executed to complete the project:
 
-## 🚀 How to Run
-1. Download all the files in this repository and place them in a single folder on your local machine.
+1. Training with Teachable Machine
+A dataset consisting of lion and tiger images was uploaded to Teachable Machine. The model was trained, and the preview feature was used to ensure it could properly distinguish between the two animals.
 
-2. Open the **Anaconda Prompt**.
+![Training Process Screenshot](test train.png)
 
-3. Activate the project's environment using the following command:
-```bash
-conda activate TeachableMachine
-```
+As shown in the screenshot, the Teachable Machine interface displays two classes: Lion and Tiger. The model successfully recognized the test image of the lion with 100% confidence in the web interface.
 
-4. Navigate to the folder containing the files using the `cd` command (example):
-```bash
-cd C:\Users\wasee\Downloads\converted_keras
-```
+2. Exporting the Model
+The trained model was exported as a Keras file (.h5 format) alongside the labels.txt file, ready to be integrated into a Python environment.
 
-5. Run the Python script to test the model:
-```bash
+3. Implementation & Testing
+A Python script (main.py) was developed to load the exported Keras model and process an input image for prediction.
+
+Results and Experiment
+The model was tested locally using the Python script. An unseen image of a lion was passed to the model, yielding the following output:
+
+Output Analysis:
+
+Predicted Class: The image was successfully classified as Lion.
+
+Confidence Score: The model achieved a confidence score of 0.99800926 (approximately 99.8%).
+
+This high confidence score demonstrates that the model effectively learned the key features needed to distinguish a lion from a tiger.
+
+How to Use
+If you want to run this project locally, follow these steps:
+
+Install Requirements: Make sure you have the necessary libraries installed.
+
+Bash
+pip install tensorflow keras numpy Pillow
+Run the Script: Execute the Python script in your terminal. Ensure the image paths inside the script match your local directory structure.
+
+Bash
 python main.py
-```
-
-## 📊 Results
-When testing the model on the input image, it successfully recognized and classified it with very high confidence:
-
-
-* **Predicted Class:** Lion (Lion)
-* **Confidence Score:** 0.998 (equivalent to 99.8%)
+Completed as part of the Smart Methods AI Training.
