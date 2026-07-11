@@ -11,7 +11,6 @@ Before testing the model locally, it was trained using Google's Teachable Machin
 3. Clicked **Train Model** to allow the system to learn the patterns and features from the provided dataset.
 4. Exported the trained model by selecting **Export Model** -> **TensorFlow** -> **Keras** format.
 5. Downloaded the generated `keras_model.h5` and `labels.txt` files to integrate them locally with the Python script.
-<img alt="image" src="C:\Users\cloab\OneDrive\Desktop\image(2).jpg" />
 ---
 
 ## 📁 Repository Structure
@@ -49,7 +48,6 @@ python main.py
 
 ## 📊 Results
 When testing the model on the input image, it successfully recognized and classified it with very high confidence:
-<img width="1036" height="255" alt="image" src="C:\Users\cloab\OneDrive\Desktop\image(2).jpg"/>
 
 
 * **Predicted Class:** Lion (Lion)
