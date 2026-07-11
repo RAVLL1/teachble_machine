@@ -52,5 +52,5 @@ When testing the model on the input image, it successfully recognized and classi
 <img width="1036" height="255" alt="image" src="C:\Users\cloab\OneDrive\Desktop\لقطة الشاشة 2026-07-11 163523.png" />
 
 
-* **Predicted Class:** Appels (Apples)
+* **Predicted Class:** Lion (Lion)
 * **Confidence Score:** 0.998 (equivalent to 99.8%)
