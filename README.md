@@ -27,7 +27,7 @@ Before testing the model locally, it was trained using Google's Teachable Machin
 ## 🛠 Prerequisites
 To run the code successfully, make sure to install the following libraries inside your Conda environment:
 
-```bash
+bash
 pip install tensorflow pillow numpy
 
 
