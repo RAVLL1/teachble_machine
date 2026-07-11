@@ -31,7 +31,7 @@ pip install tensorflow pillow numpy
 ## 📊 Results
 When testing the model on the input image, it successfully recognized and classified it with very high confidence:
 
-<img width="1588" height="913" alt="Teachable Machine Training Process" src="test train.png" />
+<img width="1588" height="913" alt="Teachable Machine Training Process" src="test_result.jpg" />
 
 Predicted Class: Lion
 
