@@ -27,9 +27,8 @@ Before testing the model locally, it was trained using Google's Teachable Machin
 ## 🛠 Prerequisites
 To run the code successfully, make sure to install the following libraries inside your Conda environment:
 pip install tensorflow pillow numpy
-~~~bash
 
-📊 Results
+## 📊 Results
 When testing the model on the input image, it successfully recognized and classified it with very high confidence:
 
 <img width="1588" height="913" alt="Teachable Machine Training Process" src="test train.png" />
