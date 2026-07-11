@@ -29,3 +29,13 @@ To run the code successfully, make sure to install the following libraries insid
 
 ```bash
 pip install tensorflow pillow numpy
+
+
+📊 Results
+When testing the model on the input image, it successfully recognized and classified it with very high confidence:
+
+<img width="1588" height="913" alt="Teachable Machine Training Process" src="test train.png" />
+
+Predicted Class: Lion
+
+Confidence Score: 0.998 (equivalent to 99.8%)
